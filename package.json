@@ -1,0 +1,32 @@
+{
+  "name": "api-gym-connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.cjs",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueGMen/api-gym-connect.git"
+  },
+  "keywords": [],
+  "author": "Henrique Mendonça",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueGMen/api-gym-connect/issues"
+  },
+  "homepage": "https://github.com/HenriqueGMen/api-gym-connect#readme",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}
